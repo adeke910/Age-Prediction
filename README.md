@@ -5,11 +5,11 @@ Diversiboard TopCrowd- Data Science Intermediate I Challenge
 
 To Predict the target Age for each ID in the test set. The submission file should have a header and be formatted in a table as follows and include the Python code used :
 
-ID  Yield
+ID     Yield
 
-1   5.3
+1      5.3
 
-5   6.9
+5      6.9
 
 Etc..
 
