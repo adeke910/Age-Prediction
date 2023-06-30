@@ -13,10 +13,52 @@ ID     Yield
 
 Etc..
 
-## CHALLENGE DELIVERABLES
-
-A Python script containing your code and explanations of your approach in the form of comments.
-
-A report summarizing your findings and recommendations for the company to improve loan default predictions.
-
+ ## Data Characteristics
  
+* "sex" - M, F, and I (infant).
+* "length" - longest shell measurement.
+* "diameter" - perpendicular to the length.
+* "height" - measured with meat in the shell.
+* "whole_wt" - whole abalone weight.
+* "shucked_wt" - the weight of abalone meat.
+* "viscera_wt" - gut-weight.
+* "shell_wt" - the weight of the dried shell.
+* "age" - the age of the abalone
+
+## Project Workflow
+1) Data Exploration.
+2) Exploratory Data Analysis.
+3) Feature Engineering.
+4) Data Preprocessing.
+5) Model Selection and Training.
+6) Model Selection and Training.
+7) Model Stacking and Saving.
+8) Prediction.
+
+## Libraries Used
+
+* Pandas
+* Numpy
+* Seaborn
+* Matplotlib
+* Sklearn
+
+## Algorithms Used
+
+*  Linear Regression
+*  Polynomial Regression
+*  Decision Tree Regressor
+*  Random Forest Regressor
+*  Gradient Boost Regressor
+*  Support Vector Regressor
+*  KNeighbors Regressor
+*  Lasso
+*  Ridge
+*  Ada Boost Regressor
+*  Stacking Regressor
+
+ ## Selected Algorithm
+The following models were best performing and were used as Base Models for the STACKING REGRESSOR.
+ 1) SVR MODEL
+ 2) POLYNOMIAL REGRESSION MODEL
+ 3) GRADIENT BOOST REGRESSION MODEL
